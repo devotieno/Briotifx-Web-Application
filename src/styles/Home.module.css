@@ -1,0 +1,128 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: black;
+  }
+  
+  .logo img {
+    max-width: 100px;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .menu a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    
+  }
+  
+  .menu a:hover {
+    color: rgb(133, 132, 132);
+  }
+  
+  .hamburger {
+    display: none;
+    background: none;
+    border: none;
+    color:black;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .hamburger {
+      display: block;
+    }
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      right: 0;
+      background-color: rgb(197, 196, 194);
+      width: 100px;
+      padding: 1rem;
+    }
+
+    .menu a {
+      margin: 0 rem 0;
+    }
+    
+    .menu a:hover {
+      color: rgb(29, 28, 28);
+    }
+
+    .menu.open {
+      display: flex;
+    }
+  }
+  
+  .container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Styles for the home section layout, aligning items and adding spacing */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.home h1{
+    text-decoration: inherit;
+    font-weight: 900;
+}
+ 
+.about h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    background-color: rgb(109, 108, 108);
+
+}
+  
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .pricing {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;;
+  }
+
+  /* Existing styles remain unchanged, add this: */
+  .section {
+    margin-bottom: 4rem;
+  }
+  
+  .section h1 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Ensure the container takes full height */
+  .container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: calc(100vh - 60px - 60px); /* Adjust for navbar and footer height */
+  }
+
+  
