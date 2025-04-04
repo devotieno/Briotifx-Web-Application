@@ -15,6 +15,7 @@ const Navbar = () => {
           marginLeft: '70px',
           display: 'flex',
           alignItems: 'center',
+          transform: 'translateX(-35%)', // Adjust this value as needed
         }}
       >
         <Image
@@ -30,13 +31,6 @@ const Navbar = () => {
           width={60}
           height={60}
         />
-        <style jsx>{`
-          @media (max-width: 768px) {
-            .${styles.logo} {
-              margin-left: 0px;
-            }
-          }
-        `}</style>
       </div>
       <div className={`${styles.menu} ${isOpen ? styles.open : ''}`}>
         <a href="#pricing">Pricing</a>

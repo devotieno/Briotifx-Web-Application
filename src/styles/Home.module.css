@@ -39,7 +39,7 @@
   @media (max-width: 768px) {
     .hamburger {
       display: block;
-      margin-right: 20px;
+      margin-right: 10px;
     }
 
     .navbar {
