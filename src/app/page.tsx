@@ -25,10 +25,26 @@ export default function Home() {
         {/* Home Section */}
          <section className={styles.home} id="home">
           <div>
-            <h1 style={{ textAlign: 'center', fontSize: 55, fontWeight: 'bold', fontFamily: 'Arial, sans-serif' }}>BRIOTIFX - Forex Trade Signals Software</h1>
-            <p style={{ textAlign: 'center', fontSize: 22, fontFamily: 'Arial, sans-serif', color: 'grey' }}>
+            <h1 
+              style={{ 
+                textAlign: 'center', 
+                fontSize: 'clamp(40px, 5vw, 55px)', 
+                fontWeight: 'bold', 
+                fontFamily: 'Arial, sans-serif' 
+              }}
+            >
+              BRIOTIFX - Forex Trade Signals Software
+            </h1>
+            <p 
+              style={{ 
+                textAlign: 'center', 
+                fontSize: 'clamp(16px, 2.5vw, 22px)', 
+                fontFamily: 'Arial, sans-serif', 
+                color: 'grey' 
+              }}
+            >
               Your ultimate Forex trade signals generator, providing accurate and timely signals to boost your trading success.
-              <br/><span style={{fontSize: 22, width:40}}>-</span> Even as a complete beginner.
+              <br/><span style={{fontSize: 'clamp(16px, 2.5vw, 22px)', width: 40}}>-</span> Even as a complete beginner.
             </p>
             <br/>
             <div style={{ display: 'flex', justifyContent: 'center'}}>

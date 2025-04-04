@@ -9,9 +9,34 @@ const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <div className={styles.logo}>
-        <Image src="/logo.png" alt="BRIOTIFX Logo" width={40} height={40} />
-        <Image src="/logo1.png" alt="BRIOTIFX Logo" width={60} height={60} />
+      <div
+        className={styles.logo}
+        style={{
+          marginLeft: '70px',
+          display: 'flex',
+          alignItems: 'center',
+        }}
+      >
+        <Image
+          src="/logo.png"
+          alt="BRIOTIFX Logo"
+          width={40}
+          height={40}
+          style={{ marginRight: '0px' }}
+        />
+        <Image
+          src="/logo1.png"
+          alt="BRIOTIFX Logo"
+          width={60}
+          height={60}
+        />
+        <style jsx>{`
+          @media (max-width: 768px) {
+            .${styles.logo} {
+              margin-left: 0px;
+            }
+          }
+        `}</style>
       </div>
       <div className={`${styles.menu} ${isOpen ? styles.open : ''}`}>
         <a href="#pricing">Pricing</a>
