@@ -49,6 +49,7 @@
       background-color: rgb(197, 196, 194);
       width: 100px;
       padding: 1rem;
+      gap: 2rem;/* Added spacing between menu items */
     }
 
     .menu a {
