@@ -5,7 +5,6 @@ import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'; // Ensure Footer.tsx or Footer.jsx exists in the components folder
 import PricingCard from '../components/PricingCard';
-import ReviewCard from '../components/ReviewCard';
 import styles from '../styles/Home.module.css';
 
 
@@ -91,11 +90,12 @@ export default function Home() {
           <div style={{ textAlign: 'center', marginTop: '80px', marginBottom: '80px' }}>
             <Image 
               src="/briotifx.png" 
-              alt="BRIOTIFX" 
-              width={800} 
-              height={400} 
-              style={{ maxWidth: '100%', height: 'auto' }} 
-            />
+              alt="BRIOTIFX"
+                width={800}
+                height={200} 
+                style={{ borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' , maxWidth: '100%', height: 'auto' }} 
+                />
+                          
           </div>
         </section>
 
@@ -182,21 +182,55 @@ export default function Home() {
 
         {/* Reviews Section */}
         <section id="reviews">
-          <h1 style={{marginTop: '80px'}}>Reviews & Performance</h1>
+        <h1 style={{marginTop: '80px'}}>Reviews & Performance</h1>
           <h1 style={{ textAlign: 'center' }}>
             <span style={{ fontSize: '20px', fontWeight: 'bold' }}>Top Reviews</span>
           </h1>
-          <div className={styles.pricing}>
-            <ReviewCard
-              name="John Doe"
-              review="BRIOTIFX has transformed my trading experience!"
-              
-            />
-            <ReviewCard
-              name="Jane Smith"
-              review="Accurate signals and great support." 
-            />
-          </div>
+        <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '20px', marginTop: '40px' }}>
+            <div style={{ textAlign: 'center' }}>
+                <Image 
+                    src="/review1.jpeg" 
+                    alt="Review 1" 
+                    width={562} 
+                    height={132} 
+                    style={{ borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' , maxWidth: '100%', height: 'auto' }} 
+                />
+                
+            </div>
+            <div style={{ textAlign: 'center' }}>
+                <Image 
+                    src="/review2.jpeg" 
+                    alt="Review 2" 
+                    width={552} 
+                    height={126} 
+                    style={{ borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' , maxWidth: '100%', height: 'auto' }} 
+                />
+                
+            </div>
+            <div style={{ textAlign: 'center' }}>
+                <Image 
+                    src="/review3.jpeg" 
+                    alt="Review 3" 
+                    width={598} 
+                    height={135} 
+                    style={{ borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' , maxWidth: '100%', height: 'auto' }} 
+                />
+                
+            </div>
+            <div style={{ textAlign: 'center' }}>
+                <Image 
+                    src="/review5.jpeg" 
+                    alt="Review 3" 
+                    width={640} 
+                    height={141} 
+                    style={{ borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' , maxWidth: '100%', height: 'auto' }} 
+                />
+                
+            </div>
+            
+        </div>
+          
+          
           <h1 style={{ textAlign: 'center' , marginTop: '60px' }}>
             <span style={{ fontSize: '20px', fontWeight: 'bold' }}>Performance Highlights</span>
           </h1>
