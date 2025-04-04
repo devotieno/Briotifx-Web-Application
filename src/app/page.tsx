@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import Image from 'next/image';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'; // Ensure Footer.tsx or Footer.jsx exists in the components folder
 import PricingCard from '../components/PricingCard';
@@ -54,7 +55,13 @@ export default function Home() {
             </div>
 
             <div style={{ marginTop: '20px', textAlign: 'center' }}>
-              <img src="/users.jpeg" alt="Users" style={{ maxWidth: '100%', height: 'auto' }} />
+              <Image 
+                src="/users.jpeg" 
+                alt="Users" 
+                width={300} 
+                height={200}
+                style={{ maxWidth: '100%', height: 'auto' }} 
+              />
             </div>
             <p style={{ textAlign: 'center' }}><span><b>507</b></span> traders love the software</p>
             <p style={{ textAlign: 'center' }}>Rating: ★★★★☆ (4.8/5)</p>
@@ -82,7 +89,13 @@ export default function Home() {
 
             </p>
           <div style={{ textAlign: 'center', marginTop: '80px', marginBottom: '80px' }}>
-            <img src="/briotifx.png" alt="BRIOTIFX" style={{ maxWidth: '100%', height: 'auto' }} />
+            <Image 
+              src="/briotifx.png" 
+              alt="BRIOTIFX" 
+              width={800} 
+              height={400} 
+              style={{ maxWidth: '100%', height: 'auto' }} 
+            />
           </div>
         </section>
 
@@ -100,7 +113,7 @@ export default function Home() {
               <div className={styles.carouselItem}>
                 <h4>Advanced Technical Indicators</h4>
                 <p style={{color: 'grey'}}>
-                  Integrates a suite of technical indicators: Simple Moving Averages (SMA), Relative Strength Index (RSI), MACD, Bollinger Bands, and Average True Range (ATR). Combines these indicators into a weighted "Combined Signal" for a holistic trading decision.
+                  Integrates a suite of technical indicators: Simple Moving Averages (SMA), Relative Strength Index (RSI), MACD, Bollinger Bands, and Average True Range (ATR). Combines these indicators into a weighted Combined Signal for a holistic trading decision.
                 </p>
               </div>
               <div className={styles.carouselItem}>
@@ -177,12 +190,11 @@ export default function Home() {
             <ReviewCard
               name="John Doe"
               review="BRIOTIFX has transformed my trading experience!"
-              rating="★★★★★"
+              
             />
             <ReviewCard
               name="Jane Smith"
-              review="Accurate signals and great support."
-              rating="★★★★☆"
+              review="Accurate signals and great support." 
             />
           </div>
           <h1 style={{ textAlign: 'center' , marginTop: '60px' }}>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from 'react';
+import Image from 'next/image';
 import styles from '../styles/Home.module.css';
 
 const Navbar = () => {
@@ -9,8 +10,8 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <img src="/logo.png" alt="BRIOTIFX Logo" width={40} />
-        <img src="/logo1.png" alt="BRIOTIFX Logo" width={60} />
+        <Image src="/logo.png" alt="BRIOTIFX Logo" width={40} height={40} />
+        <Image src="/logo1.png" alt="BRIOTIFX Logo" width={60} height={60} />
       </div>
       <div className={`${styles.menu} ${isOpen ? styles.open : ''}`}>
         <a href="#pricing">Pricing</a>
