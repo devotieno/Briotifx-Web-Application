@@ -88,6 +88,7 @@ export default function Home() {
 
             </p>
           <div style={{ textAlign: 'center', marginTop: '80px', marginBottom: '80px' }}>
+            <h1 style={{ fontSize: '15px', }}><i>Sample of analysis output</i></h1>
             <Image 
               src="/briotifx.png" 
               alt="BRIOTIFX"
@@ -113,7 +114,7 @@ export default function Home() {
               <div className={styles.carouselItem}>
                 <h4>Advanced Technical Indicators</h4>
                 <p style={{color: 'grey'}}>
-                  Integrates a suite of technical indicators: Simple Moving Averages (SMA), Relative Strength Index (RSI), MACD, Bollinger Bands, and Average True Range (ATR). Combines these indicators into a weighted Combined Signal for a holistic trading decision.
+                  Integrates a suite of technical indicators and Average True Range (ATR). Combines these indicators into a weighted Combined Signal for a holistic trading decision.
                 </p>
               </div>
               <div className={styles.carouselItem}>
@@ -158,19 +159,19 @@ export default function Home() {
             <PricingCard
               title="Basic Plan"
               price="$49/month"
-              features={['Access to core features','Signals for 4 major pairs','Basic backtesting','Email support']}
+              features={['Signals for 4 major pairs','Access to all features','Advanced backtesting','Email support']}
               link="https://shop.beacons.ai/briotifx/a28a1f4c-c3e4-4a88-80f0-027ba1f81385"
             />
             <PricingCard
               title="Pro-Plan"
               price="$99/month"
-              features={['Includes all features',' Unlimited symbols', 'Advanced backtesting','Priority support']}
+              features={['Unlimited symbols','Includes all features', 'Advanced backtesting','Email support']}
               link="https://shop.beacons.ai/briotifx/bd04f511-715b-4f13-aa70-3fb0c35c2b59"
             />
             <PricingCard
               title="Lifetime Access"
               price="$399 (One-time payment)"
-              features={['Full access to all features', 'including future updates', 'no recurring fees', 'Lifetime support']}
+              features={['Unlimited symbols','Full access to all features', 'No recurring fees', 'Lifetime support']}
               link="https://shop.beacons.ai/briotifx/9e583349-e9ee-47a3-b9d8-d98e04bd5d7c"
             />
           </div>
