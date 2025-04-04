@@ -9,7 +9,8 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <img src="/logo.png" alt="BRIOTIFX Logo" width={100} />
+        <img src="/logo.png" alt="BRIOTIFX Logo" width={40} />
+        <img src="/logo1.png" alt="BRIOTIFX Logo" width={60} />
       </div>
       <div className={`${styles.menu} ${isOpen ? styles.open : ''}`}>
         <a href="#pricing">Pricing</a>

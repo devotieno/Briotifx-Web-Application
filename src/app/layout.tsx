@@ -4,6 +4,9 @@ import '../styles/globals.css';
 export const metadata: Metadata = {
   title: 'BRIOTIFX - Forex Trade Signals',
   description: 'Your ultimate Forex trade signals generator.',
+  icons: {
+    icon: '/logo.png', // Path to the favicon in the public/ directory
+  },
 };
 
 export default function RootLayout({
