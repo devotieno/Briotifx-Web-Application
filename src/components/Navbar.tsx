@@ -1,7 +1,7 @@
-import Link from 'next/link';
+"use client";
+
 import { useState } from 'react';
 import styles from '../styles/Home.module.css';
-
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +9,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <div className={styles.logo}>
-        <img src="/logo.png" alt="BRIOTIFX Logo" width={40} />
-        <img src="/logo1.png" alt="BRIOTIFX Logo" width={60} />
+        <img src="/logo.png" alt="BRIOTIFX Logo" width={100} />
       </div>
       <div className={`${styles.menu} ${isOpen ? styles.open : ''}`}>
         <a href="#pricing">Pricing</a>

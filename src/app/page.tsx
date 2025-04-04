@@ -1,12 +1,22 @@
+"use client";
+
+import { useState } from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer'; // Ensure Footer.tsx or Footer.jsx exists in the components folder
 import PricingCard from '../components/PricingCard';
 import ReviewCard from '../components/ReviewCard';
 import styles from '../styles/Home.module.css';
 
+
 export default function Home() {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handlePurchaseClick = () => {
+    window.location.href = 'https://beacons.ai/briotifx';
+  };
+
   return (
-    <div style={{fontFamily: 'Arial, sans-serif' }}>
+    <div style={{ fontFamily: 'Arial, sans-serif' }}>
       {/* Navbar */}
       <Navbar />
 
@@ -23,25 +33,20 @@ export default function Home() {
             <br/>
             <div style={{ display: 'flex', justifyContent: 'center'}}>
               <button 
-                onClick={() => window.location.href = 'https://beacons.ai/briotifx'} 
+                onClick={handlePurchaseClick}
+                onMouseEnter={() => setIsHovered(true)}
+                onMouseLeave={() => setIsHovered(false)}
                 style={{ 
                   fontSize: '20px', 
                   padding: '15px 30px', 
                   borderRadius: '25px', 
-                  backgroundColor: '#007BFF', 
+                  backgroundColor: isHovered ? '#0056b3' : '#007BFF', 
                   color: '#fff', 
                   border: 'none', 
                   cursor: 'pointer', 
                   width: '300px', 
+                  transform: isHovered ? 'scale(1.1)' : 'scale(1)',
                   transition: 'transform 0.3s ease, background-color 0.3s ease' 
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = 'scale(1.1)';
-                  e.currentTarget.style.backgroundColor = '#0056b3';
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = 'scale(1)';
-                  e.currentTarget.style.backgroundColor = '#007BFF';
                 }}
               >
                 Purchase Now
