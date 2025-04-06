@@ -186,7 +186,7 @@ export default function Home() {
             />
             <PricingCard
               title="Lifetime Access"
-              price="$169 (One-time payment)"
+              price="$229 (One-time payment)"
               features={['Unlimited symbols','Full access to all features', 'No recurring fees', 'Lifetime support']}
               link="https://shop.beacons.ai/briotifx/9e583349-e9ee-47a3-b9d8-d98e04bd5d7c"
             />
