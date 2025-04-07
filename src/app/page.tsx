@@ -159,9 +159,18 @@ export default function Home() {
               </div>
               <div className={styles.carouselItem}>
                 <h4>Performance Optimization</h4>
-                <p style={{ marginBottom: '80px', color: 'grey'}}>
+                <p style={{ color: 'grey'}}>
                   Optimized for speed and efficiency, even with large datasets.
                   Uses caching and parallel processing to ensure fast analysis even with large datasets. Reduces server load and improves response times for a seamless user experience.
+                </p>
+              </div>
+              <div className={styles.carouselItem}>
+                <h4>Compatibility</h4>
+                <p style={{marginBottom: '80px', color: 'grey' }}>
+                Web-based application compatible with all modern browsers (Chrome, Firefox, Safari, Edge). 
+Responsive design ensures usability on desktops, tablets, and mobile devices. 
+Data sourced via yfinance, compatible with any broker providing standard forex data feeds.
+
                 </p>
               </div>
             </div>
@@ -269,10 +278,19 @@ Achieves a historical win rate of <i><b style={{ color: 'greenyellow'}}>80-90%</
 
 <br/>
 <br/>
+</p>
 
 
-Average Monthly Pips: <br/>
-Generates an average of <i><b style={{color: 'greenyellow'}}>800-1200 pips per month </b></i>, depending on market conditions and timeframe.
+          
+<h1 style={{ textAlign: 'center' , marginTop: '60px' }}>
+            <span style={{ fontSize: '20px', fontWeight: 'bold', color: 'red' }}>Risk Warning!!</span>
+          </h1>
+          <p style={{ border: '1px solid red', padding: '10px', backgroundColor: '#f8d7da', color: '#721c24', borderRadius: '5px' }}>
+          <i>"Forex trading carries a high level of risk and may not be suitable for all investors. Leverage can amplify both profits and losses, potentially exceeding your initial investment. Before using BRIOTIFX Software, consider your financial goals, experience level, and risk tolerance. We recommend testing the tool on a demo account first and consulting a financial advisor. Past performance does not guarantee future results."</i>
+
+
+
+
 
 
 
