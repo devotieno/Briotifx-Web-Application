@@ -286,7 +286,7 @@ Achieves a historical win rate of <i><b style={{ color: 'greenyellow'}}>80-90%</
             <span style={{ fontSize: '20px', fontWeight: 'bold', color: 'red' }}>Risk Warning!!</span>
           </h1>
           <p style={{ border: '1px solid red', padding: '10px', backgroundColor: '#f8d7da', color: '#721c24', borderRadius: '5px' }}>
-          <i>"Forex trading carries a high level of risk and may not be suitable for all investors. Leverage can amplify both profits and losses, potentially exceeding your initial investment. Before using BRIOTIFX Software, consider your financial goals, experience level, and risk tolerance. We recommend testing the tool on a demo account first and consulting a financial advisor. Past performance does not guarantee future results."</i>
+          <i>Forex trading carries a high level of risk and may not be suitable for all investors. Leverage can amplify both profits and losses, potentially exceeding your initial investment. Before using BRIOTIFX Software, consider your financial goals, experience level, and risk tolerance. We recommend testing the tool on a demo account first and consulting a financial advisor. Past performance does not guarantee future results.</i>
 
 
 
