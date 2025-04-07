@@ -104,9 +104,9 @@ export default function Home() {
 
             </p>
           <div style={{ textAlign: 'center', marginTop: '80px', marginBottom: '80px' }}>
-            <h1 style={{ fontSize: '15px', }}><i>Sample of analysis output</i></h1>
+            <h1 style={{ fontSize: '15px', }}><i>Sample of analysis output - Light Mode</i></h1>
             <Image 
-              src="/briotifx.png" 
+              src="/briotifx22.png" 
               alt="BRIOTIFX"
                 width={800}
                 height={200} 
@@ -165,6 +165,17 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+          <div style={{ textAlign: 'center', marginTop: '80px', marginBottom: '80px' }}>
+            <h1 style={{ fontSize: '15px', }}><i>Sample of analysis output -Dark Mode</i></h1>
+            <Image 
+              src="/briotifx31.png" 
+              alt="BRIOTIFX"
+                width={800}
+                height={200} 
+                style={{ borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' , maxWidth: '100%', height: 'auto' }} 
+                />
+                          
           </div>
         </section>
 
