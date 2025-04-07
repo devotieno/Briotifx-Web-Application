@@ -73,8 +73,8 @@ export default function Home() {
               <Image 
                 src="/users.jpeg" 
                 alt="Users" 
-                width={300} 
-                height={200}
+                width={290} 
+                height={48}
                 style={{ maxWidth: '100%', height: 'auto' }} 
               />
             </div>
