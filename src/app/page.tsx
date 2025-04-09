@@ -193,21 +193,21 @@ Data sourced via yfinance, compatible with any broker providing standard forex d
           <h1 style={{ textAlign: 'center' }}>Pricing Plans</h1>
           <div className={styles.pricing}>
             <PricingCard
-              title="Basic Plan"
-              price="$39/month"
-              features={['Signals for 4 major pairs','Access to all features','Advanced backtesting','Email support']}
+              title="Basic-Plan"
+              price="$59/month"
+              features={['Unlimited currency pairs/symbols', 'Monthly subscription', 'Full access to all features','Advanced backtesting','Email support']}
               link="https://shop.beacons.ai/briotifx/a28a1f4c-c3e4-4a88-80f0-027ba1f81385"
             />
             <PricingCard
-              title="Pro-Plan"
-              price="$59/month"
-              features={['Unlimited symbols','Includes all features', 'Advanced backtesting','Email support']}
+              title="Elite-Plan"
+              price="$169 (One-time payment)"
+              features={['Limited to 5 currency pairs/symbols of your choice', 'No recurring fees','Full access to all features',  'Advanced backtesting','Email support']}
               link="https://shop.beacons.ai/briotifx/bd04f511-715b-4f13-aa70-3fb0c35c2b59"
             />
             <PricingCard
-              title="Lifetime Access"
+              title="Pro-Plan"
               price="$229 (One-time payment)"
-              features={['Unlimited symbols','Full access to all features', 'No recurring fees', 'Lifetime support']}
+              features={['Unlimited currency pairs/symbols','No recurring fees','Full access to all features', 'Advanced backtesting', 'Email support']}
               link="https://shop.beacons.ai/briotifx/9e583349-e9ee-47a3-b9d8-d98e04bd5d7c"
             />
           </div>
