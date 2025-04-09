@@ -78,7 +78,7 @@ export default function Home() {
                 style={{ maxWidth: '100%', height: 'auto' }} 
               />
             </div>
-            <p style={{ textAlign: 'center' }}><span><b>507</b></span> traders love the software</p>
+            <i><p style={{ textAlign: 'center' }}><span><b>507</b></span> Traders love the software</p></i>
             <p style={{ textAlign: 'center' }}>Rating: ★★★★☆ (4.8/5)</p>
           </div>
           
