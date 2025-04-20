@@ -146,4 +146,47 @@
     min-height: calc(100vh - 60px - 60px); /* Adjust for navbar and footer height */
   }
 
+  .card {
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Frosted glass blur effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for definition */
+    padding: 20px; /* Internal spacing */
+    text-align: center; /* Center content */
+    color: #333; /* Text color for contrast */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover transition */
+    max-width: 300px; /* Optional: constrain card width */
+    margin: 20px; /* Optional: spacing between cards */
+  }
   
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000; /* Darker color for title */
+  }
+  
+  .card p {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #000; /* Darker color for price */
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .card ul li {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #333; /* Feature text color */
+  }

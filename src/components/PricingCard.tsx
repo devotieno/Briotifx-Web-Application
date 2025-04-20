@@ -20,10 +20,11 @@ const PricingCard = ({ title, price, features, link }: PricingCardProps) => {
     color: '#fff',
     border: 'none',
     cursor: 'pointer',
-    width: '120px', // Increased width
-    height: '40px', // Added height
-    transition: 'transform 0.3s ease, background-color 0.3s ease',
+    width: '120px',
+    height: '40px',
+    transition: 'transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease',
     transform: isHovered ? 'scale(1.1)' : 'scale(1)',
+    boxShadow: isHovered ? '0 4px 10px rgba(0, 0, 0, 0.2)' : 'none', // Subtle shadow on hover
   };
 
   return (
