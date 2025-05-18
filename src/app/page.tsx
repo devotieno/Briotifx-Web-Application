@@ -192,12 +192,7 @@ Data sourced via yfinance, compatible with any broker providing standard forex d
         <section id="pricing" style={{ backgroundColor: '#f0f0f0', padding: '20px' }}>
           <h1 style={{ textAlign: 'center' }}>Pricing Plans</h1>
           <div className={styles.pricing}>
-            <PricingCard
-              title="Basic-Plan"
-              price="$59/month"
-              features={['Unlimited currency pairs/symbols', 'Monthly subscription', 'Full access to all features','Advanced backtesting','Email support']}
-              link="https://shop.beacons.ai/briotifx/a28a1f4c-c3e4-4a88-80f0-027ba1f81385"
-            />
+            
             <PricingCard
               title="Elite-Plan"
               price="$169 (One-time payment)"
