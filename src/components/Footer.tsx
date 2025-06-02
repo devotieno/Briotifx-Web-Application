@@ -7,12 +7,12 @@ const Footer = () => {
       className={styles.footer}
       id="contact"
       style={{
-        background: 'linear-gradient(90deg, #e3e6ea 0%, #f8fafc 100%)',
+        
         color: '#222',
         padding: '36px 16px 24px 16px',
-        marginTop: 60,
+        marginTop: 20,
         textAlign: 'center',
-        boxShadow: '0 -2px 16px rgba(0,0,0,0.07)',
+        
       }}
     >
       <div style={{ marginBottom: 18 }}>

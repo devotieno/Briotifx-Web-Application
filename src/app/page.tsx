@@ -343,6 +343,7 @@ export default function Home() {
       fontSize: 'clamp(32px, 5vw, 44px)',
       fontWeight: 800,
       letterSpacing: '-1px',
+      marginTop: 0,
       marginBottom: 8,
       background: 'linear-gradient(90deg, #007BFF 0%, #00c6ff 100%)',
       WebkitBackgroundClip: 'text',
