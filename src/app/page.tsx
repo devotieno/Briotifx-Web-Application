@@ -182,7 +182,7 @@ export default function Home() {
 
 
         {/* Key Features Section */}
-        <section id="features" style={{ padding: '' }}>
+        <section id="features" style={{ padding: '48px 20px'}}>
           <h1
             style={{
               textAlign: 'center',
@@ -273,7 +273,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div style={{ textAlign: 'center', marginTop: '80px', marginBottom: '80px' }}>
+          <div style={{ textAlign: 'center', marginTop: '80px', marginBottom: '10px' }}>
             <h1 style={{ fontSize: '15px', }}><i>Sample of analysis output -Dark Mode</i></h1>
             <Image 
               src="/briotifx31.png" 
@@ -334,9 +334,12 @@ export default function Home() {
             <span style={{ fontSize: '14px', color: 'red' }}><i>30-Day Money-Back Guarantee: Not satisfied? Get a full refund within 30 days.</i></span>
           </p>
         </section>
+        <br/>
+        <br/>
+        <br/>
 
         {/* Reviews Section */}
-        <section id="reviews" style={{ background: 'linear-gradient(90deg, #f8fafc 0%, #e3f0ff 100%)', borderRadius: 18, margin: '60px 0', padding: '48px 0' }}>
+        <section id="reviews" style={{ background: 'linear-gradient(90deg, #f8fafc 0%, #e3f0ff 100%)', borderRadius: 18, margin: '60px 0', padding: '48px 20px' }}>
   <h1
     style={{
       textAlign: 'center',
@@ -411,6 +414,11 @@ export default function Home() {
   </div>
   <br/>
   <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  
 <div
             style={{
               width: 80,
