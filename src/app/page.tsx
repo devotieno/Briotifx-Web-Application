@@ -276,7 +276,7 @@ export default function Home() {
           <div style={{ textAlign: 'center', marginTop: '80px', marginBottom: '10px' }}>
             <h1 style={{ fontSize: '15px', }}><i>Sample of analysis output -Dark Mode</i></h1>
             <Image 
-              src="/briotifx31.png" 
+              src="/picture.png" 
               alt="BRIOTIFX"
               width={800}
               height={200} 
@@ -440,7 +440,7 @@ export default function Home() {
     lineHeight: 1.6
   }}>
     <b>Signal Accuracy:</b> <br />
-    Achieves a historical win rate of <span style={{ color: 'greenyellow', fontWeight: 700 }}>80-90%</span> across major pairs (based on backtesting; past performance is not indicative of future results).
+    Achieves a historical win rate of <span style={{ fontWeight: 700 }}>80-90%</span> across major pairs (based on backtesting; past performance is not indicative of future results).
   </p>
 
   <h2 style={{ textAlign: 'center', fontSize: 22, fontWeight: 700, color: 'red', margin: '48px 0 16px 0' }}>
