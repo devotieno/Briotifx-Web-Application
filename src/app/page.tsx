@@ -464,6 +464,76 @@ export default function Home() {
 </section>
       </div>
 
+
+      {/* Community Section */}
+      <section
+        style={{
+          margin: '40px auto 0 auto',
+          maxWidth: 600,
+          padding: '32px 20px',
+          borderRadius: 16,
+          background: 'rgba(255,255,255,0.18)',
+          boxShadow: '0 8px 32px 0 rgba(31,38,135,0.15)',
+          backdropFilter: 'blur(8px)',
+          WebkitBackdropFilter: 'blur(8px)',
+          border: '1px solid rgba(255,255,255,0.3)',
+          textAlign: 'center'
+        }}
+      >
+        <h2 style={{ fontWeight: 700, fontSize: 28, marginBottom: 12 }}>
+          Join Our Free Community Group!
+        </h2>
+        <p style={{ fontSize: 18, color: '#333', marginBottom: 24 }}>
+          Connect with other traders, get tips, and stay updated with the latest from BRIOTIFX.
+        </p>
+        <div style={{ display: 'flex', justifyContent: 'center', gap: 16, flexWrap: 'wrap' }}>
+          <a
+            href="https://t.me/+o95FBcaEfaVmNjA0"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              padding: '12px 32px',
+              fontSize: 18,
+              borderRadius: 30,
+              background: 'linear-gradient(90deg, #007BFF 0%, #00c6ff 100%)',
+              color: '#fff',
+              fontWeight: 600,
+              textDecoration: 'none',
+              boxShadow: '0 2px 12px rgba(0,0,0,0.10)',
+              transition: 'transform 0.2s'
+            }}
+          >
+            Join Free on Telegram
+          </a>
+          <a
+        href='https://chat.whatsapp.com/GJdlTvW3z1iA6l8FbTUGhU'
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              padding: '12px 32px',
+              fontSize: 18,
+              borderRadius: 30,
+              background: 'linear-gradient(90deg, #25D366 0%, #128C7E 100%)',
+              color: '#fff',
+              fontWeight: 600,
+              textDecoration: 'none',
+              boxShadow: '0 2px 12px rgba(0,0,0,0.10)',
+              transition: 'transform 0.2s'
+            }}
+          >
+            Join Free on WhatsApp
+          </a>
+        </div>
+      </section>
+
+      
+      
+      <br/>
+      <br/>
+      <br/>
+
       {/* Footer */}
       <Footer />
       
