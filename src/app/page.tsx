@@ -318,7 +318,7 @@ export default function Home() {
             
             <PricingCard
               title="Elite-Plan"
-              price="$199 (One-time payment)"
+              price="$99 (One-time payment)"
               features={['Limited to 5 currency pairs/symbols of your choice', 'No recurring fees','Full access to all features',  'Advanced backtesting','Email support']}
               link="https://shop.beacons.ai/briotifx/bd04f511-715b-4f13-aa70-3fb0c35c2b59"
             />
