@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css';
-import { FaEnvelope, FaInstagram, FaTiktok } from 'react-icons/fa';
+import { FaInstagram, FaTiktok } from 'react-icons/fa';
 
 const Footer = () => {
   return (
