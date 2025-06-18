@@ -318,13 +318,13 @@ export default function Home() {
             
             <PricingCard
               title="Elite-Plan"
-              price="$169 (One-time payment)"
+              price="$99 (One-time payment)"
               features={['Limited to 5 currency pairs/symbols of your choice', 'No recurring fees','Full access to all features',  'Advanced backtesting','Email support']}
               link="https://shop.beacons.ai/briotifx/bd04f511-715b-4f13-aa70-3fb0c35c2b59"
             />
             <PricingCard
               title="Pro-Plan"
-              price="$229 (One-time payment)"
+              price="$109 (One-time payment)"
               features={['Unlimited currency pairs/symbols','No recurring fees','Full access to all features', 'Advanced backtesting', 'Email support']}
               link="https://shop.beacons.ai/briotifx/9e583349-e9ee-47a3-b9d8-d98e04bd5d7c"
             />
